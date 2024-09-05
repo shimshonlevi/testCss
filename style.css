@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+header{
+    background-color: green;
+    height: 80px;
+    color: white;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.hed1{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(32, 56, 32);
+}
+.hed1 div{
+    padding: 0 10px;
+}
+.hed2{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+main{
+    background-color: rgb(212, 204, 204);
+    /* height: 510px; */
+    padding: 10px 10px 0px 10px;
+}
+main .main1{
+    border-radius: 10px;
+    box-shadow: 0ex;
+   
+    background-color: white;
+    height: 100px
+    ;
+}
+main .main2{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0ex;
+    background-color: white;
+    height: 700px;
+   
+}
+main .main2 .m2Text{
+    padding: 10px;
+}
+main .main3{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0ex;
+    background-color: white;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main2 .m2T{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(224, 216, 216);
+    
+
+}
+main .main2 .m2T .text{
+
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .main2 .m2T .text2{
+    padding: 10px;
+}
+main .main2 .m2Text{
+    padding: 0px;
+
+}
+main .main2 button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(181, 181, 227);
+}
+footer{
+    background-color: green;
+    height: 54px;
+    color: white;
+    text-align: center;
+    align-items: flex-end;
+    padding:  27px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+

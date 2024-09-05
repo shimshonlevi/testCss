@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="header">
+        <button class="button" >Home </button>
+        <button class="button">Back</button>
+        <p >Survival Skills - Wilderness</p>
+      </div>
+        <form action="action_page.php">
+            <div class="container">
+              <div>
+                <h3>Training Details</h3>
+                
+                <p>Date: 2024-09-25</p>
+                <p>Instructor: Sgt. Davis</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia rerum minus alias, deleniti vero qui soluta delectus accusamus ut cumque?</p>
+                <p>Duration: 4 hours</p>
+                <p>Equipment: Survival kit, map, compass</p>
+              </div>
+              <p>Sign Up for Survival Skills</p>
+              <hr>
+              <label for="email"><b>First Name</b></label>
+              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              <label for="psw"><b>Last Name</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              <label for="psw-repeat"><b>ID Number</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+              <hr>
+              <label for="rank"><b>rank</b></label>
+              <select name="rank" id="rank">
+                <option value="pvt">pvt</option>
+                <option value="cpl">cpl</option>
+                <option value="sgt">sgt</option>
+                <option value="lt">lt</option>
+                <option value="capt">capt</option>
+                <option value="maj">maj</option>
+              </select>
+              <label for="gender"><b>Gender</b></label>
+              <input type="radio" name="gender" value="male">Male
+              <input type="radio" name="gender" value="female">Female
+              <button type="submit" class="signup">sign up</button>
+            </div>
+          </form>
+          <p class="copyright">© Copyright 2024. All Rights Reserved.</p>
+    
+</body>
+</html>
